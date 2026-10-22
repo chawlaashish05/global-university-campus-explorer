@@ -1,58 +1,66 @@
-# Project Scope
+# Global University Campus Explorer
 
-The application will allow users to:
+A university group project developed by three classmates at SRH University. The application helps users explore universities worldwide through search, university information, interactive maps, and charts.
 
-- Search universities by name or country.
-- View university information such as name, country, website, and domain
-- View country information and flags
-- Open official university websites
-- View approximate university locations on an interactive map
-- Save favorite/recent universities
-- View search history and saved universities
-- Display simple charts and visualization
+## Features
 
+- Search for universities by name or country.
+- View university details, including country, website, and domain.
+- Explore approximate university locations on interactive maps.
+- Save favourite universities and view search history.
+- Explore university information through charts and visualisations.
 
-## Task Distribution
+## Technologies
 
-### Hamza (Group Leader)
-- Flask application integration
-- Main routing and application flow
-- GitHub repository management
-- Project coordination
+- **Python and Flask:** Application backend and routing.
+- **SQLite:** Persistent storage for favourites and search history.
+- **Requests and JSON:** Retrieval and processing of API data.
+- **Folium:** Interactive maps.
+- **HTML and CSS:** Web page structure and styling.
+
+## My Contribution — Ashish Chawla
+
+My responsibilities focused on:
+
+- SQLite database management.
+- Features for saving favourite universities and recording search history.
+- Map and chart implementation.
+
+I also collaborated with my teammates on application integration, testing, debugging, interface improvements, and presentation preparation.
+
+## Team Responsibilities
+
+### Hamza
+- Flask application integration.
+- Main routing and application flow.
+- Repository management and project coordination.
 
 ### Ashutosh
-- API integration
-- University and country data retrieval
-- JSON data processing
+- API integration.
+- University and country data retrieval.
+- JSON data processing.
 
 ### Ashish
-- SQLite database management
-- Favorites and search history system
-- Map and chart implementation
+- SQLite database management.
+- Favourites and search history.
+- Maps and charts.
 
-### Shared Responsibilities
-- Final integration
-- Testing and debugging
-- UI improvements
-- Final presentation preparation
+### Shared Work
+- Final integration.
+- Testing and debugging.
+- Interface improvements.
+- Final presentation preparation.
 
-## Technical Scope
+## Data Sources
 
-- Flask: The main framework of the web application
-- SQLite3: The database used to store application data permanently
-- Requests / JSON: sends requests to API / is the data format returned by APIs
-- Folium: used to create interactive maps ( for approximate locations)
-- HTML: used to create the structure of web pages
-- CSS: used to style and design the pages
+- [University Domains API](https://github.com/Hipo/university-domains-list-api)
+- [REST Countries](https://restcountries.com/)
+- [Open-Meteo Geocoding](https://open-meteo.com/en/docs/geocoding-api)
 
-## Initial API's Used:
+Map locations are approximate.
 
-- University Domains API: https://github.com/Hipo/university-domains-list-api
-- REST Countries API: https://restcountries.com/
-- Open-Meteo Geocoding: https://open-meteo.com/en/docs/geocoding-api
+## Project Context
 
-## Backend Layer Plan:
+This application was developed collaboratively as part of our university studies. My repository is a fork of the team's original repository.
 
-- College: ID, Name, Country, Website, Domain
-- Search: ID, History, Searches, Results
-- Favorites: ID, Saved at, Notes
+[Original team repository](https://github.com/hcyber7/global-university-campus-explorer)
